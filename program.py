@@ -20,3 +20,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+    def divide(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Ошибка"
+
+print("Деление:", divide(8, 2))
